@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Film, Heart, ShoppingCart, Menu, X } from "lucide-react";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "../context/appContext";
 
 interface HeaderProps {
   onNavigate: (page: string) => void;

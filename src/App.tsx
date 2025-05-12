@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AppProvider } from "./context/appContext";
 import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
